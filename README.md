@@ -7,8 +7,6 @@ Example haproxy config file using acme webroot plugin:
 
 ```
 global
-	chroot /var/lib/haproxy
-
 	# Default SSL material locations
 	crt-base /etc/letsencrypt/live
 
